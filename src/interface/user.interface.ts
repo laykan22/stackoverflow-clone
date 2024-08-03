@@ -1,3 +1,8 @@
+export interface User {
+  id: string;
+  name: string;
+}
+
 import { Document } from 'mongoose';
 
 export interface IUser extends Document {
